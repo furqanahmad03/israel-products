@@ -1,24 +1,15 @@
-// $(document).on(function(){
-//   $('.slider').slick({
-//     dots: true,
-//     infinite: true,
-//     speed: 400,
-//     slidesToShow: 1,
-//     adaptiveHeight: true,
-//     autoplay: true,
-//     arrows: false
-//   });
-// })
-
 $(document).ready(function () {
   $('.slider').slick({
-    dots: true,
+    dots: false,
+    arrow: false,
     infinite: true,
+    arrow: false,
     speed: 400,
-    slidesToShow: 1,
     adaptiveHeight: true,
     autoplay: true,
-    arrows: false
+    arrows: false,
+    slidesToShow: 1,
+    slidesToScroll: 1
   });
-  $('#loader').css('display','none');
+  $('#loader').css('display', 'none');
 });
