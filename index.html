@@ -5,8 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" type="text/css"
-    href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="shortcut icon" href="/images/logofa.png" type="image/x-icon">
   <title>Israel Products</title>
 </head>
@@ -15,29 +14,29 @@
   <div id="loader"
     class="bg-black bg-[url('/images/loader.svg')] bg-no-repeat bg-center h-screen w-screen md:bg-[length:15%_auto] xsm:bg-[length:30%_auto] fixed z-50">
   </div>
-  <header class="p-4 bg-[#2f2f2f] text-white font-bold text-center text-2xl sm:text-2xl text-base">
-    <div>Israeli vs Pakistani Products</div>
-  </header>
-  <div class="w-full mx-auto">
-    <div class="slider">
-      <div>
-        <img src="images/pic1.jpg" alt="#">
-      </div>
-      <div>
-        <img src="images/pic3.jpg" alt="#">
-      </div>
-      <div>
-        <img src="images/pic4.jpg" alt="#">
-      </div>
+  <header class="px-6 py-4 bg-[#2f2f2f] dark:bg-[#596378] text-white font-bold text-center sm:text-2xl text-base flex justify-between">
+    <div></div>
+    <div>bzp.netlify.app</div>
+    <div class="w-fit">
+      <input type="checkbox" class="checkbox absolute opacity-0" id="themeChange">
+      <label for="themeChange" class="checkbox-label flex items-center bg-black px-2 py-1 rounded-3xl cursor-pointer">
+        <i class="fa fa-sun-o text-yellow-500 mr-2.5 !text-sm" aria-hidden="true"></i>
+        <i class="fa fa-moon-o text-yellow-400 !text-sm" aria-hidden="true"></i>
+        <span
+          class="w-5 h-5 rounded-full bg-white absolute -translate-x-1 transform transition"></span>
+      </label>
     </div>
+  </header>
+  <div class="sm:text-3xl text-xl text-center dark:text-white p-6 font-extrabold">
+    Bycott Zionist Products
   </div>
-  <main class="render p-5 w-full">
+  <main class="render p-5 pt-0 w-full">
     <table class="w-full sm:text-base text-xs">
       <thead class="sticky top-0">
         <tr>
-          <td class="cell text-center text-white font-bold bg-[#2f2f2f]">Products</td>
-          <td class="cell text-center text-white font-bold bg-[#2f2f2f]">Israel Brands</td>
-          <td class="cell text-center text-white font-bold bg-[#2f2f2f]">Pakistani Brands</td>
+          <td class="cell text-center text-white font-bold bg-[#2f2f2f] dark:bg-[#596378]">Products</td>
+          <td class="cell text-center text-white font-bold bg-[#2f2f2f] dark:bg-[#596378]">Israel Brands</td>
+          <td class="cell text-center text-white font-bold bg-[#2f2f2f] dark:bg-[#596378]">Pakistani Brands</td>
         </tr>
       </thead>
       <tbody>
@@ -199,15 +198,12 @@
       </tbody>
     </table>
   </main>
-  <footer class="p-2 bg-[#2f2f2f] text-white font-semibold text-center text-xs">
+  <footer class="p-2 bg-[#2f2f2f] dark:bg-[#596378] text-white font-semibold text-center text-xs">
     <p>Powered By: <a class="hover:transform hover:scale-x-110" target="_blank"
         href="https://linktr.ee/furqanahmad03">Furqan Ahmad</a></p>
   </footer>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
-    integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script type="module" src="index.js"></script>
 
 </body>

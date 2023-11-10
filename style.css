@@ -2,7 +2,12 @@
 @tailwind components;
 
 .cell{
-  @apply border border-collapse border-[#2f2f2f] w-1/3 p-2;
+  @apply border border-collapse border-[#2f2f2f] dark:border-gray-500 w-1/3 p-2 text-black dark:text-white dark:bg-[#1a202c];
 }
-
+.checkbox:checked+.checkbox-label .rounded-full {
+  @apply translate-x-5;
+}
+.dark{
+  background-color: #1a202c;
+}
 @tailwind utilities;
